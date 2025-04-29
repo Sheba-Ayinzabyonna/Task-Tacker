@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Task Tracker</h1>
+  <div class="container">
+    <p>Track your tasks easily with the task tracker</p>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Add a new task..." autocomplete="off" />
+      <button type="submit" id="add-task-btn">+ Add Task</button>
+    </form>
+    <div class="tabs">
+      <button class="tab active" data-tab="all">All Tasks (5)</button>
+      <button class="tab" data-tab="active">Active (3)</button>
+      <button class="tab" data-tab="completed">Completed (2)</button>
+    </div>
+    <ul class="task-list" id="task-list">
+     
+    </ul>
+    <div class="footer">
+      <span id="items-left">3 items left</span>
+      <button id="clear-completed">Clear completed</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
