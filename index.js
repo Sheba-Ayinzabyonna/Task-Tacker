@@ -6,7 +6,7 @@ const initialTasks = [
   { id: 5, text: "Prepare monthly report", completed: false },
 ];
 
-let tasks = [...initialTasks];
+let tasks = [initialTasks];
 let currentTab = "all";
 
 const taskList = document.getElementById("task-list");
